@@ -1,5 +1,4 @@
 import numpy as np
-from scipy.spatial import Delaunay
 import matplotlib.pyplot as plt
 import math
 
@@ -66,11 +65,11 @@ points = [
     [0, 2]
 ]
 
-for i in range(len(points)):
-    plt.scatter(points[i][0], points[i][1])
+# for i in range(len(points)):
+#     plt.scatter(points[i][0], points[i][1])
 
-hull = np.array(graham_scan(points))
+# hull = np.array(graham_scan(points))
 
-plt.plot(hull[:, 0], hull[:, 1])
+# plt.plot(hull[:, 0], hull[:, 1])
 
-plt.show()
+# plt.show()
